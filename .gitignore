@@ -1,0 +1,37 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments and machine-specific files
+.env
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+
+# Private populated-center layer
+1) DATA AND TERRITORIAL STRATIFICATION/Data/PopulatedCenters/*
+!1) DATA AND TERRITORIAL STRATIFICATION/Data/PopulatedCenters/README.md
+
+# Private/raw model-training data and generated model artifacts
+**/train/images/
+**/train/images_norm/
+**/train/masks/
+**/val/images/
+**/val/images_norm/
+**/val/masks/
+**/test/images/
+**/test/images_norm/
+**/test/masks/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+
+# Private archives and local run folders
+*.rar
+*.zip
+segformer_runs/
+runs/
