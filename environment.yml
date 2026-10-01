@@ -1,31 +1,9 @@
 name: perusat1-building-footprint-segmentation
 channels:
   - conda-forge
-  - pytorch
 dependencies:
-  - python=3.10
+  - python=3.11
   - pip
-  - ipykernel
-  - ipywidgets
   - jupyterlab
-  - numpy
-  - pandas
-  - geopandas
-  - shapely
-  - rasterio
-  - scipy
-  - scikit-learn
-  - scikit-image
-  - matplotlib
-  - folium
-  - branca
-  - opencv
-  - openpyxl
-  - pytorch
-  - torchvision
-  - tqdm
   - pip:
-      - albumentations
-      - pytorch-lightning
-      - segmentation-models-pytorch
-      - torchmetrics
+      - -r requirements.txt

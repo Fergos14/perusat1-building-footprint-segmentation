@@ -33,5 +33,5 @@ Thumbs.db
 # Private archives and local run folders
 *.rar
 *.zip
-segformer_runs/
+*_runs/
 runs/

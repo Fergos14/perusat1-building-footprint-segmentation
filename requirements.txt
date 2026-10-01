@@ -1,4 +1,5 @@
-albumentations
+# Interfaces used by BuildingsPeruSat1.ipynb; exact Colab versions are in its setup cell.
+albumentations==2.0.8
 branca
 folium
 geopandas
@@ -7,17 +8,16 @@ ipywidgets
 jupyter
 matplotlib
 numpy
-opencv-python
+opencv-python-headless
 openpyxl
 pandas
-pytorch-lightning
+pytorch-lightning>=2.5.1
 rasterio
-scikit-image
 scikit-learn
 scipy
-segmentation-models-pytorch
+segmentation-models-pytorch==0.5.0
 shapely
-torch
-torchmetrics
-torchvision
+torch>=2.6.0
+torchmetrics>=1.7.1
+torchvision>=0.21.0
 tqdm

@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+data/
+Dataset/
+datasets/
+runs/
+artifacts/
+reports/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.tif
+*.tiff
+*.rar
+*.zip
